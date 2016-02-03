@@ -4,6 +4,142 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-  	<button class="btn btn-primary">I'm a button</button>
+    <nav class="navbar navbar-light bg-faded">
+      <div class="container">
+        <a class="navbar-brand" href="#">CSE3345</a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Assignments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lectures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item pull-xs-right">
+            <a class="nav-link" href="#">Logout</a>
+          </li>
+          <li class="nav-item pull-xs-right">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="invisible">...</div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class=" col-sm-3">
+          <div class="card">
+             <div class="card-header">
+            Your Assignments
+          </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-group-item-success">Assignement #1 <span class="label label-pill label-success pull-xs-right">92</span></li>
+              <li class="list-group-item list-group-item-success">Assignement #2 <span class="label label-pill label-success pull-xs-right">100</span></li>
+              <li class="list-group-item list-group-item-warning">Assignement #3 <span class="label label-pill label-warning pull-xs-right">74</span> </li>
+              <li class="list-group-item list-group-item-danger">Assignement #4 <span class="label label-pill label-danger pull-xs-right">23</span> </li>
+              <li class="list-group-item list-group-item-success">Assignement #5 <span class="label label-pill label-success pull-xs-right">95</span> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h1>Assignment 1</h1>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+
+          <div class="invisible">...</div>
+
+          <div class="alert alert-success" role="alert">
+            <strong>Well done!</strong> You got a 92 on this assignment.
+          </div>
+
+          <div class="invisible">...</div>
+
+          <h3>Grading Rubric</h3>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Description</th>
+                <th>Avalible Points</th>
+                <th>Your Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                <td>40</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ayye Lmao</td>
+                <td>40</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>DANK MEMES</td>
+                <td>20</td>
+                <td>12</td>
+              </tr>
+              <tr class="table-active">
+              <th colspan="2" scope="row" class="text-xs-right ">Total</th>
+              <td>100</td>
+              <td>92</td>
+            </tr>
+            </tbody>
+          </table>
+
+          <div class="invisible">...</div>
+
+
+        <div class="row">
+          <div class="col-xs-6">
+            <h2>Comments</h2>
+            <p>They don't want us to eat. Lion! In life there will be road blocks but we will over come it. Don't ever play yourself. It's on you how you want to live our life.</p>
+          </div>
+          <div class="col-xs-6">
+            <div class="card"><div class="card-block">
+              <h4 class="card-title">Get Bonus Points</h4>
+              <p class="card-text">We don't see them, we will never see them. Bless up. Congratulations, you played yourself.</p>
+              <a href="#" class="btn btn-primary">Start Khaled Exercise</a>
+              </div>
+            </div>
+          </div>
+
+
+          <h2>Dispute Grade</h2>
+        <form>
+          <div class="form-group row">
+            <label for="EMAIL" class="col-xs-2 form-control-label">Complaint</label>
+            <div class="col-xs-10">
+              <input type="email" class="form-control" id="EMAIL" placeholder="Your complaint">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="EMAIL" class="col-xs-2 form-control-label">Problem</label>
+            <div class="col-xs-10">
+              <input type="email" class="form-control" id="EMAIL" placeholder="Your problem"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-xs-offset-2 col-xs-10">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
